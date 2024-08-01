@@ -10,4 +10,13 @@ This project monitors the temperature and humidity of a server room and checks f
 ## Setup
 
 1. Connect NodeMCU to your computer and open Arduino IDE.
-2. Upload the following code to NodeMCU:
+2. Upload the following [code](nodemcu.ino) to NodeMCU:
+3. Place the following PHP script on your server:
+```PHP
+  <?php
+    if($_POST)
+      print_r($_POST);
+    else
+      echo "NO POST";
+```
+The server response will be displayed in the serial monitor.
