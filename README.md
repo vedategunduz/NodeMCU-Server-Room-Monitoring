@@ -7,7 +7,7 @@ This project monitors the temperature and humidity of a server room and checks f
 - Water sensor
 - I2C LCD
 
-## variables sent with post
+## Variables sent with post
 - humidity
 - temperature
 - waterLevel
