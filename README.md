@@ -7,6 +7,11 @@ This project monitors the temperature and humidity of a server room and checks f
 - Water sensor
 - I2C LCD
 
+## Variables sent
+- humidity
+- temperature
+- waterLevel
+
 ## Setup
 
 1. Connect NodeMCU to your computer and open Arduino IDE.
