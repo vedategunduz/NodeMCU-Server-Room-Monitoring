@@ -7,10 +7,13 @@ This project monitors the temperature and humidity of a server room and checks f
 - Water sensor
 - I2C LCD
 
-## Variables sent with post
-- humidity
-- temperature
-- waterLevel
+## Required libraries
+- ESP8266WiFi
+- WiFiClient
+- ESP8266HTTPClient
+- Wire
+- LiquidCrystal_I2C
+- DHT
 
 ## Setup
 
@@ -24,4 +27,10 @@ This project monitors the temperature and humidity of a server room and checks f
     else
       echo "NO POST";
 ```
+
+## Variables sent with post
+- humidity
+- temperature
+- waterLevel
+
 The server response will be displayed in the serial monitor.
