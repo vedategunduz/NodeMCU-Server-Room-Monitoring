@@ -6,7 +6,6 @@ This project monitors the temperature and humidity of a server room and checks f
 - DHT11 temperature and humidity sensor
 - Water sensor
 - I2C LCD
-- const char* serverUrl = "http://vedategunduz.com.tr/post_server.php";
 
 ## Required libraries
 - ESP8266WiFi
