@@ -17,6 +17,7 @@ This project monitors the temperature and humidity of a server room and checks f
 
 ## Setup
 
+1. Before starting, ensure that you have installed the CP2102 driver for NodeMCU. You can download it from [here](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers?tab=downloads).
 1. Connect NodeMCU to your computer and open Arduino IDE.
 2. Upload the following [code](nodemcu.ino) to NodeMCU:
 3. Place the following PHP script on your server:
